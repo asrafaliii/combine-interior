@@ -28,7 +28,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div class="navbar bg-base-100 px-12">
+    <div class="navbar bg-base-100 px-12 sticky top-0 z-10">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -54,12 +54,11 @@ const Navbar = () => {
             {navbarItem}
           </ul>
         </div>
-        {/* <a class="btn btn-ghost normal-case text-xl">daisyUI</a> */}
         <a>
           <img src={Logo} width={200} />
         </a>
       </div>
-      <div class="navbar-end hidden lg:flex">
+      <div class="navbar-end hidden lg:flex ">
         <ul class="menu menu-horizontal p-0">{navbarItem}</ul>
       </div>
     </div>
