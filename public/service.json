@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 1,
+    "name": "On-site Consultations",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Project Survey & Analysis",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Space Planning & Furniture Arrangement",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Design Concepts",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Finishes & Furnishings",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Custom Designs",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Purchasing, Delivery & Installation",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Project Coordination & Management",
+    "img": "",
+    "description": ""
+  },
+  {
+    "_id": 1,
+    "name": "Others",
+    "img": "",
+    "description": ""
+  }
+]

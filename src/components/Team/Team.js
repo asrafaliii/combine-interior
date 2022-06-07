@@ -11,7 +11,7 @@ const Team = () => {
   }, []);
   return (
     <div className="px-12">
-      <h1 className="text-4xl mt-5">Our Team</h1>
+      <h1 className="text-4xl text-center mt-5">Our Team</h1>
       <p>
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
