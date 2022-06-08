@@ -1,20 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const navbarItem = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a>About</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <a>Team</a>
+        <Link to="/team">Team</Link>
       </li>
       <li>
-        <a>Services</a>
+        <Link to="/service">Services</Link>
       </li>
       <li>
         <a>Portfolio</a>
@@ -23,7 +24,7 @@ const Navbar = () => {
         <a>Blogs</a>
       </li>
       <li>
-        <a>Contact</a>
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );
