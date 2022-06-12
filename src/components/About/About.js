@@ -29,6 +29,23 @@ const About = () => {
                 Design Residential Hotel Design Idea Restaurant Design Cafeteria
                 and Project Management.
               </p>
+              <h1 className="text-2xl ">Our Commitment</h1>
+              <p>
+                We are committed to delivering inspired designs that fulfill
+                client expectations through collaboration and exceptional
+                service. Our goal is always to create designs tailored to our
+                clients’ unique personal styles and practical needs. Much of our
+                business comes from repeat clients and direct referrals. Once
+                people hire us, they seem to want to do it again!
+              </p>
+              <h1 className="text-2xl ">WE PROVIDE </h1>
+              <p>
+                Our work methods are organized to give maximum parsonal
+                assistance to the architrct in charge of managing the project
+                and their customer by providing a team of design engineers
+                dedicated to the individual proeject; We are ready to develop
+                designs and estimates based on the information received.
+              </p>
 
               <button class="btn btn-outline btn-primary">See More..</button>
             </div>
