@@ -2,55 +2,49 @@
   {
     "_id": 1,
     "name": "On-site Consultations",
-    "img": "https://i.ibb.co/3cCJ8q7/Beauty-Room-Design-Combine-Interior.jpg",
+    "img": "https://i.ibb.co/cT7zQXK/On-Site-Consultation.jpg",
     "description": ""
   },
   {
     "_id": 2,
     "name": "Project Survey & Analysis",
-    "img": "https://i.ibb.co/1961tmQ/Bedroom-Wall-Cabinet-Combine-Interior.jpg",
+    "img": "https://i.ibb.co/tsMCTcr/project-survey-analysis.jpg",
     "description": ""
   },
   {
     "_id": 3,
     "name": "Space Planning & Furniture Arrangement",
-    "img": "https://i.ibb.co/d5PHZPJ/Belcony-Design-Combine-Interior-01.jpg",
+    "img": "https://i.ibb.co/Jp14LBR/Space-planning-furniture-arrangement.jpg",
     "description": ""
   },
   {
     "_id": 4,
     "name": "Design Concepts",
-    "img": "https://i.ibb.co/cL744dZ/Belcony-Design-Combine-Interior-02.jpg",
+    "img": "https://i.ibb.co/K7FPRP0/Design-concepts.jpg",
     "description": ""
   },
   {
     "_id": 5,
     "name": "Finishes & Furnishings",
-    "img": "https://i.ibb.co/x714Yhp/Drawing-Room-Combine-Interior.jpg",
+    "img": "https://i.ibb.co/bHGBzm8/Finishes-furnishings.jpg",
     "description": ""
   },
   {
     "_id": 6,
     "name": "Custom Designs",
-    "img": "https://i.ibb.co/9qyWK0S/Booth-Design-Combine-Interior.jpg",
+    "img": "https://i.ibb.co/nLBJbr0/Custom-designs.jpg",
     "description": ""
   },
   {
     "_id": 7,
     "name": "Purchasing, Delivery & Installation",
-    "img": "https://i.ibb.co/4Wv7pXQ/Home-Bathroom-Design.jpg",
+    "img": "https://i.ibb.co/60N7HMR/Purchasing-delivery-installation.jpg",
     "description": ""
   },
   {
     "_id": 8,
     "name": "Project Coordination & Management",
-    "img": "https://i.ibb.co/NK8fyV7/Home-Cafeteria-Design.jpg",
-    "description": ""
-  },
-  {
-    "_id": 9,
-    "name": "Others",
-    "img": "https://i.ibb.co/jM5VWqW/Home-Ceiling-Design.jpg",
+    "img": "https://i.ibb.co/TLq7x9M/Project-coordination-management.jpg",
     "description": ""
   }
 ]
