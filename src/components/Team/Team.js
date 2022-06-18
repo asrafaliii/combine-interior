@@ -12,6 +12,13 @@ const Team = () => {
   return (
     <div className="px-12">
       <h1 className="text-4xl text-center mt-5">Our Team</h1>
+      <p>
+        We specialize in planning and design and offer a full service in the
+        Bangladesh, from the construction of new space, the COMBINE INTERIOR of
+        existing ones, right through to high-end interior design production.
+        With us you can count on a qualified team for high-level architecturual
+        planning for furnishing luxurious living space.
+      </p>
       <div className="row">
         {teams.map((team) => (
           <TeamCard key={team._id} team={team}></TeamCard>
