@@ -1,142 +1,90 @@
 import React from "react";
+import { GoLocation } from "react-icons/go";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <div>
-      <div
-        class="hero min-h-screen"
-        style={{
-          backgroundImage: `url("https://i.ibb.co/L1gCbnR/Blog-Slide.jpg")`,
-        }}
-      >
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl text-red-800 font-bold">Contact US</h1>
+    <div className="w-full bg- py-16 px-4">
+      <h1 className="text-4xl text-center mt-2 mb-5">Contact</h1>
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
+        <div className="max-w-[500px] grid md:grid-cols-1 gap-2 px-2 text-center">
+          <div className="flex py-3 rounded-xl shadow-xl">
+            <p className="text-5xl font-bold text-red-500">
+              <GoLocation />
+            </p>
+            <p className="text-gray-400 mt-2 text-2xl">
+              Gulshan, Dhaka, Bangladesh
+            </p>
           </div>
+          <div className="flex py-3 rounded-xl shadow-xl">
+            <p className="text-5xl font-bold text-red-500">
+              <AiOutlineMail />
+            </p>
+            <p className="text-gray-400 mt-2 text-2xl">ci@gmail.com</p>
+          </div>
+          <div className="flex py-3 rounded-xl shadow-xl">
+            <p className="text-5xl font-bold text-red-500">
+              <AiOutlinePhone />
+            </p>
+            <p className="text-gray-400 mt-2 text-2xl">01700000000000</p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center">
+          <form>
+            <div class="mb-3">
+              <label
+                for="name"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >
+                Your Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                placeholder="Your Name"
+                required=""
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="email"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >
+                Your Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                placeholder="Your Email"
+                required=""
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="text"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >
+                Your Message
+              </label>
+              <textarea
+                type="text"
+                id="message"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                placeholder="Your Message"
+                required=""
+              />
+            </div>
+            <button
+              type="submit"
+              class="text-white bg-red-500 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
-      <section className="contact-section">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-10">
-              <div className="wrapper">
-                <div className="row no-gutters">
-                  <div className="col-md-6">
-                    <div className="contact-wrap w-100 p-lg-5 p-4">
-                      <h3 className="mb-4">Send us a message</h3>
-                      <form id="contactForm" className="contactForm">
-                        <div className="row">
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                                type="text"
-                                className="form-control"
-                                name="name"
-                                placeholder="Name"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                                type="email"
-                                className="form-control"
-                                name="email"
-                                placeholder="Email"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                                type="text"
-                                className="form-control"
-                                name="subject"
-                                placeholder="Subject"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <textarea
-                                type="text"
-                                className="form-control"
-                                name="message"
-                                placeholder="Message"
-                                cols="30"
-                                rows="6"
-                              ></textarea>
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                                type="submit"
-                                value="Send Message"
-                                className="btn btn-primary"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div className="col-md-6 d-flex align-items-stretch">
-                    <div className="info-wrap w-100 p-lg-5 p-4 img">
-                      <h3>Contact us</h3>
-                      <p className="mb-4">
-                        We're open for any suggestion or just to have a chat
-                      </p>
-                      <div className="dbox w-100 d-flex align-items-start">
-                        <div className="icon d-flex align-items-center justify-content-center">
-                          <span className="fa fa-map-marker"></span>
-                        </div>
-                        <div className="text pl-3">
-                          <p>
-                            <span>Address:</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div className="dbox w-100 d-flex align-items-center">
-                        <div className="icon d-flex align-items-center justify-content-center">
-                          <span className="fa fa-phone"></span>
-                        </div>
-                        <div className="text pl-3">
-                          <p>
-                            <span>Phone:</span>
-                          </p>
-                        </div>
-                      </div>
-                      <div className="dbox w-100 d-flex align-items-center">
-                        <div className="icon d-flex align-items-center justify-content-center">
-                          <span className="fa fa-paper-plane"></span>
-                        </div>
-                        <div className="text pl-3">
-                          <p>
-                            <span>Email:</span>
-                            <a href="mailto:info@yoursite.com"></a>
-                          </p>
-                        </div>
-                      </div>
-                      <div className="dbox w-100 d-flex align-items-center">
-                        <div className="icon d-flex align-items-center justify-content-center">
-                          <span className="fa fa-globe"></span>
-                        </div>
-                        <div className="text pl-3">
-                          <p>
-                            <span>Website:</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

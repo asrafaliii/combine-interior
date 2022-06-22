@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div>
       <div className="w-ful py-16 px-4">
-        <h1 className="text-5xl font-bold text-center mt-5">About</h1>
+        <h1 className="text-4xl text-center mt-5">About</h1>
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
           <img
             className="w-[500px] mx-auto my-4"
@@ -36,12 +36,9 @@ const About = () => {
               Design Idea Restaurant Design Cafeteria and Project Management.
             </p>
 
-            <div className="flex justify-start">
-              <button
-                onClick={navigateDetails}
-                className="bg-black text-[#ff3e3e] w-[200px]  rounded-md font-medium my-6 mx-auto md:mx-0 py-3"
-              >
-                SEE MORE.
+            <div class="mt-6">
+              <button onClick={navigateDetails} class="btn btn-primary">
+                Read More
               </button>
             </div>
           </div>
