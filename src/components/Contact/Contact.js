@@ -13,20 +13,25 @@ const Contact = () => {
               <GoLocation />
             </p>
             <p className="text-gray-400 mt-2 text-2xl">
-              Gulshan, Dhaka, Bangladesh
+              181/1 (4th Floor), Shahadat Sarani, Badda Hogh School Road, Middle
+              Badda, Gulshan-1, Dhaka-1212.
             </p>
           </div>
           <div className="flex py-3 rounded-xl shadow-xl">
             <p className="text-5xl font-bold text-red-500">
               <AiOutlineMail />
             </p>
-            <p className="text-gray-400 mt-2 text-2xl">ci@gmail.com</p>
+            <p className="text-gray-400 mt-2 text-2xl">
+              combineinterior@gmail.com
+            </p>
           </div>
           <div className="flex py-3 rounded-xl shadow-xl">
             <p className="text-5xl font-bold text-red-500">
               <AiOutlinePhone />
             </p>
-            <p className="text-gray-400 mt-2 text-2xl">01700000000000</p>
+            <p className="text-gray-400 mt-2 text-2xl">
+              +880 1719 687061, +880 1681 929969, +880 1738 165563
+            </p>
           </div>
         </div>
         <div className="flex flex-col justify-center">

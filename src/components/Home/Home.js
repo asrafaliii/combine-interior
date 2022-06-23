@@ -6,7 +6,7 @@ import Contact from "../Contact/Contact";
 import OurClient from "../OurClient/OurClient";
 import Portfolio from "../Portfolio/Portfolio";
 import Service from "../Service/Service";
-import Team from "../Team/Team";
+import OurTeam from "../Team/OurTeam";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
       <Service />
       <OurClient />
       <Portfolio />
-      <Team />
+      <OurTeam />
       <Contact />
     </div>
   );
