@@ -10,7 +10,7 @@ import Service8 from ".././assets/Services/pic8.jpg";
 
 const Services = () => {
   return (
-    <div className="px-12">
+    <div name="service" className="px-12">
       <div className="text-center m-5 mt-10">
         <p className="text-4xl font-bold inline border-b-4 border-red-600">
           Our Services

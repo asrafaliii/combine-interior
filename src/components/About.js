@@ -6,7 +6,7 @@ const About = () => {
   const navigate = useNavigate();
 
   const navigateDetails = (event) => {
-    navigate("/aboutdetails");
+    navigate("/details");
   };
 
   return (

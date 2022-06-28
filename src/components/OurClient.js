@@ -48,7 +48,7 @@ const OurClient = () => {
     ],
   };
   return (
-    <div className="px-12">
+    <div name="client" className="px-12">
       <div className="text-center m-5 mt-10">
         <p className="text-4xl font-bold inline border-b-4 border-red-600">
           Our Client

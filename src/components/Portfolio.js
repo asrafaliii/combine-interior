@@ -10,7 +10,7 @@ import Pro8 from ".././assets/Portfolio/pro8.jpg";
 
 const Portfolio = () => {
   return (
-    <div className="px-12">
+    <div name="portfolio" className="px-12">
       <div className="text-center m-5 mt-10">
         <p className="text-4xl font-bold inline border-b-4 border-red-600">
           Our Portfolio

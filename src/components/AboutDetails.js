@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutDetails = () => {
   return (
-    <div>
+    <div name="details">
       <div
         className="hero min-h-screen"
         style={{

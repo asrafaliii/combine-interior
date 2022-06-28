@@ -5,3 +5,10 @@
 body {
   background-color: #f1f5f9;
 }
+
+@layer base {
+  li {
+    @apply cursor-pointer;
+    @apply font-bold;
+  }
+}
