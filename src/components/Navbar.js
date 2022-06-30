@@ -59,7 +59,7 @@ const Navbar = () => {
         }
       >
         <li className="p-4 mx-6 text-2xl ">
-          <Link to="/" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>

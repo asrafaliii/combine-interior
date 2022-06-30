@@ -1,7 +1,5 @@
 import React from "react";
 import ContactImg from ".././assets/Banner/contact.jpg";
-import { GoLocation } from "react-icons/go";
-import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -11,37 +9,7 @@ const Contact = () => {
           Contact
         </p>
       </div>
-      <div className="shadow-md w-full flex flex-col gap-y-4 px-6 py-12 my-4 rounded-lg">
-        <div className="grid md:grid-cols-3 gap-2 text-center">
-          <div className=" py-3 rounded-xl border">
-            <p className="text-5xl font-bold text-red-500">
-              <AiOutlineMail />
-            </p>
-            <p className="text-gray-400 mt-2 text-2xl px-2">
-              combineinterior@gmail.com
-            </p>
-          </div>
-          <div className=" py-3 rounded-xl border">
-            <p className="text-5xl font-bold text-red-500">
-              <AiOutlinePhone />
-            </p>
-            <p className="text-gray-400 mt-2 text-2xl">
-              +880 1719 687061 <br /> +880 1681 929969 <br /> +880 1738 165563
-            </p>
-          </div>
-          <div className="py-3 rounded-xl border">
-            <p className="text-5xl font-bold text-red-500 text-center">
-              <GoLocation className=" flex justify-center items-center" />
-            </p>
-            <p className="text-gray-400 mt-2 text-2xl">
-              181/1 (4th Floor), Shahadat Sarani, Badda Hogh School Road, Middle
-              Badda, Gulshan-1, Dhaka-1212.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full mx-auto grid md:grid-cols-2 gap-8">
+      <div className="w-full mx-auto grid md:grid-cols-2 gap-8 mt-10">
         <img src={ContactImg} alt="Contact" />
         <div className="shadow-md w-full flex flex-col p-4 my-4 rounded-lg hover:shadow-xl">
           <form className="px-6 py-4">

@@ -1,14 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Banner from ".././assets/About/about.jpg";
 
 const About = () => {
-  const navigate = useNavigate();
-
-  const navigateDetails = (event) => {
-    navigate("/details");
-  };
-
   return (
     <div name="about" className="px-12">
       <div className="w-ful py-16 px-4">
@@ -38,11 +31,8 @@ const About = () => {
             </p>
 
             <div className="mt-6">
-              <button
-                onClick={navigateDetails}
-                className="bg-transparent hover:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded"
-              >
-                Read More.
+              <button className="bg-transparent hover:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+                Send Message
               </button>
             </div>
           </div>

@@ -56,18 +56,18 @@ const OurClient = () => {
       </div>
       <Slider {...settings}>
         <div>
-          <div className=" flex items-center justify-center w-20 h-20 rounded-full hover:scale-110 duration-500 my-5">
-            <img className="w-18 mx-auto" src={Client1} alt="" />
+          <div className=" flex items-center justify-center bg-white w-24 h-24  hover:scale-110 duration-500 my-5">
+            <img className="w-16 mx-auto" src={Client1} alt="" />
           </div>
         </div>
         <div>
-          <div className=" flex items-center justify-center w-20 h-20 rounded-full hover:scale-110 duration-500 my-5">
-            <img className="w-18 mx-auto" src={Client2} alt="" />
+          <div className=" flex items-center justify-center bg-white w-24 h-24 hover:scale-110 duration-500 my-5">
+            <img className="w-16 mx-auto" src={Client2} alt="" />
           </div>
         </div>
         <div>
-          <div className=" flex items-center justify-center w-20 h-20 rounded-full hover:scale-110 duration-500 my-5">
-            <img className="w-18 mx-auto" src={Client3} alt="" />
+          <div className=" flex items-center justify-center bg-white w-24 h-24 hover:scale-110 duration-500 my-5">
+            <img className="w-16 mx-auto" src={Client3} alt="" />
           </div>
         </div>
         <div>
@@ -81,7 +81,7 @@ const OurClient = () => {
           </div>
         </div>
         <div>
-          <div className=" flex items-center justify-center w-20 h-20 rounded-full hover:scale-110 duration-500 my-5">
+          <div className=" flex items-center justify-center bg-white w-24 h-24 hover:scale-110 duration-500 my-5">
             <img className="w-18 mx-auto" src={Client6} alt="" />
           </div>
         </div>
@@ -91,13 +91,13 @@ const OurClient = () => {
           </div>
         </div>
         <div>
-          <div className=" flex items-center justify-center w-20 h-20 rounded-full hover:scale-110 duration-500 my-5">
-            <img className="w-18 mx-auto" src={Client8} alt="" />
+          <div className=" flex items-center justify-center bg-white w-24 h-24 hover:scale-110 duration-500 my-5">
+            <img className="w-16 mx-auto" src={Client8} alt="" />
           </div>
         </div>
         <div>
-          <div className=" flex items-center justify-center w-20 h-20 rounded-full hover:scale-110 duration-500 my-5">
-            <img className="w-18 mx-auto" src={Client9} alt="" />
+          <div className=" flex items-center justify-center bg-white w-24 h-24 hover:scale-110 duration-500 my-5">
+            <img className="w-16 mx-auto" src={Client9} alt="" />
           </div>
         </div>
       </Slider>

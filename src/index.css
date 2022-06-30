@@ -9,6 +9,5 @@ body {
 @layer base {
   li {
     @apply cursor-pointer;
-    @apply font-bold;
   }
 }
